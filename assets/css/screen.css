@@ -2855,6 +2855,7 @@ textarea:focus {
 .signup-title {
     margin: 0 0 0.1em;
     font-size: 4.2rem;
+    text-align: left;
 }
 
 .signup-form p {
@@ -2872,6 +2873,7 @@ textarea:focus {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 .signup-box .button {
@@ -2905,6 +2907,7 @@ textarea:focus {
 .signin-title {
     margin: 0 0 0.1em;
     font-size: 4.2rem;
+    text-align: left;
 }
 
 .signin-form p {
@@ -2922,6 +2925,7 @@ textarea:focus {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 .signin-box .button {
