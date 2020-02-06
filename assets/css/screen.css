@@ -3270,6 +3270,16 @@ form[data-members-form].error .message-error {
     margin: 0 0 0.2em;
 }
 
+.post-visibility span {
+ display: none;
+}
+
+.post-visibility--members .members,
+.post-visibility--paid .paid,
+.post-visibility--public .public {
+  display: block;
+}
+
 .post-visibility {
     display: inline-block;
     margin: 0 8px 1px 0;

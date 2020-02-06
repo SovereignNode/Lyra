@@ -22,7 +22,12 @@
 
             <header class="post-card-header">
                 <div class="post-card-header-tags">
-                    <span class="post-visibility post-visibility-{{visibility}}">{{t "Free Post"}}</span>
+                    <div class="post-visibility post-visibility--{{visibility}}">
+                        <span class='paid'>Paid</span>
+                        <span class='members'>Members</span>
+                        <span class='public'>Public</span>
+                    </div>
+
                     {{#if primary_tag}}
                         {{#primary_tag}}
                             <div class="post-card-primary-tag">{{name}}</div>
