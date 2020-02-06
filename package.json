@@ -48,7 +48,7 @@
         "autoprefixer": "9.7.3",
         "cssnano": "4.1.10",
         "gscan": "2.11.0",
-        "gulp": "4.0.2",
+        "gulp": "^4.0.2",
         "gulp-livereload": "4.0.1",
         "gulp-postcss": "8.0.0",
         "gulp-sourcemaps": "2.6.5",
@@ -85,5 +85,10 @@
                 "width": 2000
             }
         }
+    },
+    "dependencies": {
+        "beeper": "^2.0.0",
+        "gulp-cli": "^2.2.0",
+        "pump": "^3.0.0"
     }
 }
