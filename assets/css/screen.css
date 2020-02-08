@@ -2830,12 +2830,12 @@ textarea:focus {
 
 .button.primary {
     color: #fff;
-    background-color: var(--blue);
+    background-color: #9d8c78;
     box-shadow: none;
 }
 
 .button.primary:hover {
-    background-color: color(var(--blue) l(-10%));
+    background-color: #c4853c;
 }
 
 .site-signup {
@@ -2853,7 +2853,7 @@ textarea:focus {
 }
 
 .signup-title {
-    margin: 0 0 0.1em;
+    margin: 1em 0 0.1em;
     font-size: 4.2rem;
     text-align: left;
 }
@@ -2873,7 +2873,7 @@ textarea:focus {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .signup-box .button {
