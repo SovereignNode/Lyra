@@ -418,9 +418,10 @@ blockquote cite a {
 }
 
 a {
-    color: color(var(--blue) l(-5%));
+    color: #c4853c l(-5%));
     text-decoration: none;
 }
+
 
 a:hover {
     text-decoration: underline;
