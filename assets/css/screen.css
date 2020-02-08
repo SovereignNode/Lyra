@@ -3275,7 +3275,8 @@ form[data-members-form].error .message-error {
 }
 
 .post-visibility--members .members,
-.post-visibility--paid .paid {
+.post-visibility--paid .paid,
+.post-visibility--public .public {
   display: block;
 }
 
