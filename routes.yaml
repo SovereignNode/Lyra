@@ -7,6 +7,14 @@ collections:
   /:
     permalink: /{slug}/
     template: index
+  /informatie/:
+    permalink: /informatie/{slug}/
+    template: index
+    filter: primary_tag:informatie
+  /gerechten/:
+    permalink: /gerechten/{slug}/
+    template: index
+    filter: primary_tag:gerechten
 
 taxonomies:
   tag: /tag/{slug}/
