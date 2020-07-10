@@ -74,16 +74,13 @@
 
         {{!-- Logged in, not paying: Link to checkout --}}
         <div class="account-box">
-            <p></p>
-            <h1 class="account-box-title">{{t "Currently, you're not a subscriber"}}</h1>
-            <p>{{t "is subscribed to free updates from {blogtitle}, but doesn't have a paid subscription to unlock full access." blogtitle=@site.title}}</p>
-            <br></br>
-            <p><a href="/paketten/">Klik hier</a> voor een overzicht van de voordelen die je krijgt met een lidmaatschap.</p>
-            <div class="authbox-signup">
+            <h1 class="account-box-title">{{t "You've succesfully subscribed to {blogtitle}!" blogtitle=@site.title}}</h1>
+            <p>{{t "Hey there!"}} <strong>{{@member.email}}</strong> {{t "is succesfully subscribed to {blogtitle} and will receive e-mails when new articles are published." blogtitle=@site.title}}</p>
+            <!-- <div class="authbox-signup">
                 <a class="button primary" href="/signup/">
                     <span class="button-content">{{t "Subscribe now"}}</span>
                 </a>
-            </div>
+            </div> -->
         </div>
 
     {{else}}
